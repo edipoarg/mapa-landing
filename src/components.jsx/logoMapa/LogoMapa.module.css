@@ -1,0 +1,53 @@
+.LogoMapa{
+    position: absolute;
+    left: 5vw;
+    top: 10vh;
+    background-color: #9fff39;
+    border: solid 1px;
+    border-color: #131313;
+    border-radius: 22px;
+    width: 90vw;
+    height: 10vh;
+    }
+    
+    .Logo{
+        position: absolute;
+        height: 12vh;
+        top: -3vh;
+        left: 3vw;
+    }
+    
+    .LogoTitulo{
+    position: relative;
+    font-size: 15px;
+    top: 2vh; /* Ajusta esta propiedad para subir el título 2 píxeles */
+    left: 70vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 15px;
+    width: 10vw;}
+
+
+@media (min-width: 720px) {
+    
+.LogoMapa{
+position: absolute;
+left: 5vw;
+top: 14vh;
+height: 55vh;
+width: 50vw;
+}
+
+.Logo{
+    height: 10vh;
+ 
+
+}
+
+.LogoTitulo{
+    position: relative;
+    font-size: 25px;
+    top: 15vh; /* Ajusta esta propiedad para subir el título 2 píxeles */
+left: 5vw;
+line-height: 25px;
+    
+}}
