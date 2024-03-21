@@ -1,0 +1,96 @@
+.regionList{
+    padding-left: 10vw;
+    height: 60vh;
+}
+
+.message{
+    font-size: 0.8rem;
+    padding-left: 10vw;
+}
+
+.regionContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75vw;
+    height: 10vh;
+    margin-top: 3vh;    
+}
+
+.regionButton{
+    width: 80vw;
+}
+
+.regionNameContainer{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+background-color: #9fff39;
+border-radius: 14px;
+color: #231534;
+padding: 1vh 7vw;
+font-size: 2rem;
+border: solid 2px;
+box-shadow: 5px 5px 0 3px ;
+height: 8vh;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.regionNameContainer:hover{
+    background-color: #231534;
+    color: #b9ff39;
+    border: 0px;
+    box-shadow: none;
+   }
+
+
+
+
+@media (min-width: 768px) {
+
+    .regionContainer{
+        position: relative;
+        left: 45.1vw;
+        top: -14vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 25vw;
+        height: 14vh;
+        background-color: none;
+        border: none;
+        box-shadow: none;
+
+    }
+    
+    .regionButton{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        width: 30vw;
+    }
+    
+    .regionNameContainer{
+    display: grid;
+        grid-template-columns: 4fr 1fr;
+    background-color: none;
+    border-radius: 14px;
+    color: none;
+    padding: 1vh 4vw;
+    font-size: 1.5rem;
+    border: solid 2px;
+    box-shadow: none;
+    border: none;
+
+
+    
+    }
+    .regionNameContainer:hover{
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+    background-color: #b9ff39;
+    border-radius: 14px;
+    color: #231c26;
+    padding: 1vh 4vw;
+    font-size: 1.5rem;
+    border: solid 2px;
+    }
+        
+  
+  }
